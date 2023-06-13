@@ -1,5 +1,5 @@
 # h2ngm2n
-h2ngm2n is a 2 player version(mine), one gives the word and the other guesses!
+h2ngm2n(hangman) is a 2 player version(mine), one gives the word and the other guesses!
 This game made with Python (mine)
 (I'm stupid)
 
