@@ -129,7 +129,7 @@ def batdau():
         mang -= 1
         print("\nNo! The letter", chon, "is not part of the secret word.")
     else:
-      print("\nPlease input only 1 letter.")
+      print("\nPlease input 1 letter.")
 
     print("\n", "You have", mang, "incorrect guesses left.", "\n")
     print("""
