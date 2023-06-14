@@ -16,7 +16,7 @@ def end():
 
 
 def banner():
-  banner = pyfiglet.figlet_format("h2ngm2n")
+  banner = pyfiglet.figlet_format("h6ngmaN2p")
   print(banner)
   print("                                        #made with Python")
   return ""
@@ -122,13 +122,15 @@ def batdau():
     else:
       print("\nSuggestion : ", goiy)
 
-    if chon in random_tu:
-      print("\nYes! The letter", chon, "is part of the secret word.")
-    elif len(chon) == 0 or len(chon) > 1:
-      print("\nPlease input only 1 letter.")
+    if len(chon) == 1:
+      if chon in random_tu:
+        print("\nYes! The letter", chon, "is part of the secret word.")
+      else:
+        mang -= 1
+        print("\nNo! The letter", chon, "is not part of the secret word.")
     else:
-      mang -= 1
-      print("\nNo! The letter", chon, "is not part of the secret word.")
+      print("\nPlease input only 1 letter.")
+
     print("\n", "You have", mang, "incorrect guesses left.", "\n")
     print("""
                         o
