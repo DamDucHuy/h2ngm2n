@@ -16,7 +16,7 @@ def end():
 
 
 def banner():
-  banner = pyfiglet.figlet_format("h6ngmaN2p")
+  banner = pyfiglet.figlet_format("h2ngman")
   print(banner)
   print("                                        #made with Python")
   return ""
