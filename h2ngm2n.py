@@ -36,7 +36,7 @@ def sieunhangao():
     os.system('cls' if os.name == 'nt' else 'clear')
     print(banner())
     print(
-      "Welcome to H6ngmaN2p! Let's see what you will type.\n\n\nPlayer 1 turn.\n"
+      "Welcome to H6ngmaN2p! Let's see what you will type.\n\nPlayer 1 turn.\n"
     )
     print("""
                           o
@@ -111,8 +111,8 @@ def sieunhangao():
       space2.append('_')
     os.system('cls' if os.name == 'nt' else 'clear')
     print(banner())
-
-    print("Player 2 turn!\n\n")
+    print("Welcome to Hangman! Let's see if you can guess this word!\n")
+    print("Player 2 turn.\n")
     print("You have", mang, "incorrect guesses left.", "\n")
     print("Your word is...")
     print(' '.join(space2))
@@ -139,7 +139,8 @@ def sieunhangao():
         if chon == kytu:
           space2[i] = kytu
       print(banner())
-      print("Player 2 turn.\n\n")
+      print("Welcome to Hangman! Let's see if you can guess this word!\n")
+      print("Player 2 turn.\n")
       print(' '.join(space2))
       if goiy == "not":
         print("\nNo suggestions at all!")
