@@ -151,7 +151,7 @@ def sieunhangao():
       else:
         print("\nPlease input only 1 letter.")
 
-      print("\n", "You have", mang, "incorrect guesses left.", "\n")
+      print("\n","You have", mang, "incorrect guesses left.", "\n")
       print("""
                           o
        _ 0  .-----\-----.  ,_0 _
