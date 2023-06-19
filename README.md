@@ -20,7 +20,7 @@ Get pip by running this file https://bootstrap.pypa.io/get-pip.py! *required*
 
 1. Open terminal
 2. `clone` or **download the .py file here**
-(for how to use the clone command, write `git clone https://github.com/DamDucHuy/hangman-with-python.git`)
+(for how to use the clone command, write `git clone https://github.com/DamDucHuy/h2ngm2n.git`)
 3. Run this .py file through the command `python3 name.py`
 (change the name to the appropriate file name)
 
