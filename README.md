@@ -19,6 +19,7 @@ Get pip by running this file https://bootstrap.pypa.io/get-pip.py! *required*
 **Before running this file, download the asciimatics library with the command `pip install asciimatics` so you can run it**
 
 **How to use(Windows):**
+
 Download Python for Windows from https://www.python.org/downloads/ *required*
 Get pip by running this file https://bootstrap.pypa.io/get-pip.py! *required*
 
