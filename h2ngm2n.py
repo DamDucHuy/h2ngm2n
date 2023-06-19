@@ -1,4 +1,8 @@
 import os
+from asciimatics.effects import Cycle, Stars
+from asciimatics.renderers import FigletText
+from asciimatics.scene import Scene
+from asciimatics.screen import Screen
 
 
 def sieunhangao():
@@ -171,5 +175,28 @@ def sieunhangao():
 
   print(batdau())
 
+
+def doit(screen):
+  effects = [
+    Cycle(screen, FigletText("Welcome to", font='big'),
+          int(screen.height / 2 - 8)),
+    Cycle(screen, FigletText("H2NGM2N!", font='big'),
+          int(screen.height / 2 + 3)),
+    Stars(screen, 200)
+  ]
+  screen.play([
+    Scene(effects, int(screen.width / 2)),
+    Scene(effects,
+          int(screen.width / 2) + 1)
+  ],
+              repeat=False)
+  screen.clear()
+  screen.print_at("Made by Dam Duc Huy", int(screen.width / 2 - 3),
+                  int(screen.height / 2))
+  screen.refresh()
+  screen.wait_for_input(1)
+
+
+Screen.wrapper(doit)
 
 print(sieunhangao())
