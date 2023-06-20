@@ -15,9 +15,23 @@ def sieunhangao():
       if user_input == "y":
         print(sieunhangao())
       if user_input == "n":
+        print(goodbye())
+        print("Goodbye:D!")
         exit()
       else:
         print("Please re-enter! y(Yes) or N (No).")
+
+  def goodbye():
+
+    def didit(screen):
+      screen.clear()
+      screen.print_at("Goodbye:D!", int(screen.width / 2 - 3),
+                      int(screen.height / 2))
+      screen.refresh()
+      screen.wait_for_input(1)
+
+    Screen.wrapper(didit)
+    return""
 
   def banner():
     print(""" 
