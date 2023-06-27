@@ -28,8 +28,6 @@ def sieunhangao():
     screen.refresh()
     screen.wait_for_input(1)
 
-    
-
   def banner():
     print(""" 
    (     (      )    ) :        (      )   
@@ -114,7 +112,7 @@ def sieunhangao():
   
                |          |
       """)
-    goiy = input("\nGive suggestions or not: ")
+    goiy = input("\nGive suggestions: ")
 
     space2 = []
 
@@ -127,10 +125,7 @@ def sieunhangao():
     print("You have", mang, "incorrect guesses left.", "\n")
     print("Your word is...")
     print(' '.join(space2))
-    if goiy == "not":
-      print("\nNo suggestions at all!")
-    else:
-      print("\nSuggestion : ", goiy)
+    print("\nSuggestion : ", goiy)
     print("""
                           o
        _ 0  .-----\-----.  ,_0 _
